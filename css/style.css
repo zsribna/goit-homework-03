@@ -155,7 +155,16 @@ body {
     font-weight: 400;
 }
 
-
+.works {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    display: flex;
+}
 .works_btn {
     font-family: inherit;
     background-color: var(--secondary-background-color);
@@ -174,6 +183,10 @@ body {
 .works_btn:focus {
     background-color: var(--variable-color);
     color: var(--white-color);
+}
+.works-list {
+    list-style: none;
+    
 }
 
 .teams-list-title {
@@ -194,23 +207,26 @@ body {
     opacity: 0;
 }
 
-.works {
-    text-align: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-transform: capitalize;
-    letter-spacing: 0.02em;
-}
 
 .features_list {
     list-style: none;
 }
 
-.works-list {
+.works {
     list-style: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
+
+.works_list {
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    display: flex;
+}
+
 
 .works_list_title {
     font-family: 'Roboto';
@@ -278,20 +294,6 @@ body {
     margin-right: 30px;
     margin-left: 24px;
     */
-}
-
-.works {
-    list-style: none;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-}
-
-.works_list {
-    justify-content: center;
-    list-style: none;
-    flex-wrap: wrap;
-    gap: 10px;
 }
 
 .footer {
