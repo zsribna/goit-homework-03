@@ -33,7 +33,7 @@ img {
     display: block;
 }
 .list_item{
-    margin-left: 40px;
+   
 }
 .header_line {
     border-bottom: 1px solid var(--second-btn-color);
@@ -94,6 +94,7 @@ img {
     /*в один рядок */
     display: flex;
     padding: 24px 0;
+    gap: 24px;
 }
 
 .header_link {
@@ -209,6 +210,7 @@ img {
 
 .features_osn_list {
     display: flex;
+    gap:24px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -229,7 +231,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 400;
-    margin-right: 24px;
     color: var(--blue-color);
 }
 
@@ -252,12 +253,11 @@ img {
     display: flex;
     list-style: none;
     text-decoration: none;
+    gap:24px;
     margin: 0;
     padding: 0;
 }
-.list_item_works{
-    margin-left: 24px;
-}
+
 .section-item {
     background: var(--secondary-background-color);
 }
@@ -276,16 +276,13 @@ img {
     display: flex;
     list-style: none;
     text-decoration: none;
+    gap:24px;
     
 }
-
-.teams_list_element {
-    margin-left: 24px;
-}
-
 .text-teamm {
     padding-top: 32px;
     padding-bottom: 32px;
+    background-color: var(--white-color);
 }
 
 .text-teamm-title {
@@ -355,7 +352,7 @@ img {
 
 .section-pre {
     padding-top: 96px;
-    padding-bottom: 72px;
+    padding-bottom: 120px;
 }
 
 .list_button {
@@ -363,7 +360,7 @@ img {
     list-style: none;
     justify-content: center;
     margin-bottom: 72px;
-    margin-left: 24px;
+    gap: 24px;
 }
 
 .list_button_element {
