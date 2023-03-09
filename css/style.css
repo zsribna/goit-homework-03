@@ -390,12 +390,13 @@ img {
     margin-bottom: -48px;
     list-style: none;
     justify-content: center;
+    gap:24px;
 }
 
 .section-list-item2 {
     margin-bottom: 48px;
     background: var(--white-color);
-    margin-left: 24px;
+    
 }
 
 .gallery2 {
